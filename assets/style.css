@@ -118,15 +118,15 @@ html, body {
 	height: 220px;
 }
 .asia{
-	background: rgba(255,0,0,0.65);
+	background: rgba(244,42,0,0.65);
 }
 
 .europe{
-	background: rgba(232,159,16,0.65);
+	background: rgba(255,148,0,0.65);
 }
 
 .north{
-	background: rgba(38,232,16,0.65);
+	background: rgba(53,126,19,0.65);
 }
 
 .south{
