@@ -133,6 +133,10 @@ html, body {
 	background: rgba(16,91,232,0.65);
 }
 
+.australia{
+	background: rgba(112,68,155,0.65);
+}
+
 
 
 .postit p {font-weight: bold; font-size: 14px; line-height: 102%; margin-top: 10px; margin-bottom: 10px}
