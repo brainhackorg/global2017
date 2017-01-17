@@ -84,6 +84,11 @@ html, body {
 	height: 300px;
 }
 
+
+#coming p{
+	background-color:rgba(255,255,255,0.9); 
+}
+
 /*about*/
 .about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 6em;}
 .services ul li{width: 10em;height: 10em;border: 1px solid #ccc;padding: 0;border-radius: 50%;margin: 0 1.25em;line-height: 13.5em;color: #999;}
@@ -133,6 +138,10 @@ html, body {
 	background: rgba(16,91,232,0.65);
 }
 
+.south a{
+	color: #00daff
+}
+
 .australia{
 	background: rgba(112,68,155,0.65);
 }
@@ -172,7 +181,9 @@ html, body {
     padding: 0;}
 
 
-
+.loacation-description{
+	background-color:rgba(255,255,255,0.9); 
+}
 
 
 /*contact*/
