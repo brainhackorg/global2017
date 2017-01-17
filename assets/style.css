@@ -133,6 +133,10 @@ html, body {
 	background: rgba(16,91,232,0.65);
 }
 
+.south a{
+	color: #00daff
+}
+
 .australia{
 	background: rgba(112,68,155,0.65);
 }
