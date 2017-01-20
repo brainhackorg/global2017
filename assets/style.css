@@ -53,19 +53,32 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	background-size: cover;
 }
 
+#background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
 
-.bh-title { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.bh-title {
+   position: absolute;
+   top: 200px;
+   left: 0;
    width: 100%;
    color: #e89f10;
 }
 
-.bh-title2 { 
-   position: absolute; 
-   top: 330px; 
-   left: 0; 
+.bh-title2 {
+   position: absolute;
+   top: 330px;
+   left: 0;
    width: 100%;
    color: #e89f10;
    font-weight: bold;
@@ -75,7 +88,7 @@ html, body {
     height: 100%;
 }
 
-.fill { 
+.fill {
     min-height: 100%;
     min-width: 100%
 }
@@ -86,7 +99,7 @@ html, body {
 
 
 #coming p{
-	background-color:rgba(255,255,255,0.9); 
+	background-color:rgba(255,255,255,0.9);
 }
 
 /*about*/
@@ -182,7 +195,7 @@ html, body {
 
 
 .loacation-description{
-	background-color:rgba(255,255,255,0.9); 
+	background-color:rgba(255,255,255,0.9);
 }
 
 
@@ -202,7 +215,7 @@ html, body {
 	body{font:300 13px/13px Roboto,Arial,Helvetica;}
 	.navbar-brand{padding-top: 11px;}
 	.services ul li{margin:0 0.5em; }
-	
+
 	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
 	figure.effect-oscar figcaption{padding: 12%;}
 	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
@@ -216,16 +229,16 @@ html, body {
 	.btn{padding: 1em 2em;}
 	.partners img{margin: 0 15px 25px 0;width: 157px;}
 	.services ul li{width: 9em;height: 9em;}
-	figure.effect-chico figcaption {padding: 2em;}	
+	figure.effect-chico figcaption {padding: 2em;}
 	figure.effect-oscar figcaption {padding: 20%;}
 	figure.effect-chico figcaption::before{top: 10px;right: 10px;bottom: 10px;left: 10px;}
-	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}	
+	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}
 }
 
 
 @media (max-width: 767px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
-	.navbar-nav > li > a {line-height: 1em;}	
+	.navbar-nav > li > a {line-height: 1em;}
 	.navbar-brand{padding: 7px;}
 	.navbar-brand img{height: 37px;}
 	.navbar-toggle{margin-top: 12px;}
@@ -234,7 +247,7 @@ html, body {
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
-	#partners h2{padding: 0 1em;} 
+	#partners h2{padding: 0 1em;}
 	#home {padding-top: 5em;}
 
 	.partners{display: block;float: left;}
