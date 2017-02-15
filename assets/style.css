@@ -462,6 +462,11 @@ div.category ul li {
     margin-right: 0;
 }
 
+.row{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
 /*locations*/
 
 #locations-title{margin-top: 1.5em;}
