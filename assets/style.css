@@ -39,7 +39,7 @@ hr{margin-bottom: 50px;}
 
 #head,.carousel{margin-top: 0;}
 
-#home{padding-top: 10em;}
+#home{padding-top: 6em;}
 
 #cover{position: relative;}
 
@@ -304,6 +304,9 @@ html, body {
     position: relative;
 		padding-bottom: 25px;
 }
+
+#projects
+{margin-top: 1.5em;}
 
 .prj-grid-item
 {
