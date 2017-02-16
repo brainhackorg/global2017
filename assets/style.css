@@ -296,7 +296,8 @@ html, body {
 		position: relative;
 		margin: auto;
 	  /*background: #EEE;*/
-	  width: 90%;
+	  /*width: 90%;*/
+    padding-bottom: 2em;
 	}
 
 #content
